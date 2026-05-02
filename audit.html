@@ -1,21 +1,5 @@
 <html>
   <head>
-    <script>
-      (function (w, i, g) {
-        w[g] = w[g] || [];
-        if (typeof w[g].push == "function") w[g].push(i);
-      })(window, "G-SEKJ4E9T4H", "google_tags_first_party");
-    </script>
-    <script async="" src="/s9cc/"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("set", "developer_id.dYzg1YT", true);
-      gtag("config", "G-SEKJ4E9T4H");
-    </script>
     <meta name="robots" content="noindex, nofollow" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
@@ -27,7 +11,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Funnel & Website Audit For Coaches</title>
+    <title>Page & Website Audit For Coaches:</title>
     <link rel="icon" href="./img/core-img/favicon.png" />
     <link rel="stylesheet" href="css/fontawesome.in.css" fetchpriority="high" />
     <link rel="stylesheet" href="css/fontawesome-free/css/all.css" />
@@ -224,6 +208,248 @@
       }
       #nextBtn:hover {
         background: #0052a3 !important;
+      }
+    </style>
+
+    <style>
+      .thankyou-area {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url(images/img1.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding: 60px 20px;
+      }
+
+      .thankyou-area::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.65);
+      }
+
+      /* ── Card ── */
+      .ty-card {
+        position: relative;
+        background: #ffffff;
+        border-radius: 20px;
+        padding: 52px 44px;
+        max-width: 620px;
+        width: 100%;
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
+        text-align: center;
+        animation: cardIn 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+      }
+
+      @keyframes cardIn {
+        from {
+          opacity: 0;
+          transform: translateY(32px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* ── Check icon ── */
+      .ty-icon {
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        background: #059669;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 28px;
+        animation: popIn 0.5s 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+      }
+
+      @keyframes popIn {
+        from {
+          opacity: 0;
+          transform: scale(0.4);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+      .ty-icon svg {
+        width: 36px;
+        height: 36px;
+      }
+
+      /* ── Text ── */
+      .ty-card h1 {
+        color: #1a1a1a;
+        font-size: 1.9rem;
+        font-weight: 800;
+        margin: 0 0 12px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+      }
+
+      .ty-card .ty-sub {
+        color: #4b5563;
+        font-size: 16px;
+        line-height: 1.65;
+        margin: 0 0 32px;
+      }
+
+      /* ── What happens next box ── */
+      .next-steps {
+        background: #f9f0ff;
+        border-left: 4px solid #7c3aed;
+        border-radius: 10px;
+        padding: 22px 24px;
+        text-align: left;
+        margin-bottom: 32px;
+      }
+
+      .next-steps h3 {
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #7c3aed;
+        margin: 0 0 14px;
+      }
+
+      .next-steps .step {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        margin-bottom: 12px;
+      }
+
+      .next-steps .step:last-child {
+        margin-bottom: 0;
+      }
+
+      .step-num {
+        min-width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        background: #7c3aed;
+        color: white;
+        font-size: 12px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1px;
+      }
+
+      .step-text {
+        color: #1a1a1a;
+        font-size: 14px;
+        line-height: 1.55;
+      }
+
+      .step-text strong {
+        color: #7c3aed;
+      }
+
+      /* ── Tip ── */
+      .ty-tip {
+        background: #fffbeb;
+        border: 1px solid #fcd34d;
+        border-radius: 8px;
+        padding: 14px 18px;
+        font-size: 13px;
+        color: #92400e;
+        margin-bottom: 32px;
+        line-height: 1.55;
+      }
+
+      .ty-tip i {
+        margin-right: 6px;
+        color: #d97706;
+      }
+
+      /* ── Social nudge ── */
+      .social-nudge {
+        margin-bottom: 32px;
+      }
+
+      .social-nudge p {
+        font-size: 14px;
+        color: #6b7280;
+        margin: 0 0 12px;
+      }
+
+      .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+      }
+
+      .social-links a {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        padding: 9px 18px;
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 600;
+        text-decoration: none;
+        transition:
+          transform 0.18s ease,
+          box-shadow 0.18s ease;
+      }
+
+      .social-links a:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+      }
+
+      .social-links .fb {
+        background: #1877f2;
+        color: white;
+      }
+
+      .social-links .ig {
+        background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af);
+        color: white;
+      }
+
+      /* ── Back button ── */
+      .ty-back {
+        font-size: 13px;
+        color: #9ca3af;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+
+      .ty-back:hover {
+        color: #7c3aed;
+      }
+      .ty-back i {
+        margin-right: 4px;
+      }
+
+      /* ── Mobile ── */
+      @media (max-width: 520px) {
+        .ty-card {
+          padding: 36px 24px;
+        }
+        .ty-card h1 {
+          font-size: 1.5rem;
+        }
+        .social-links {
+          flex-direction: column;
+          align-items: center;
+        }
+        .social-links a {
+          width: 180px;
+          justify-content: center;
+        }
       }
     </style>
 
@@ -775,12 +1001,48 @@
         } else {
           document.getElementById("question").innerText =
             "Here's what we found, Enter your details to get your full personalized fix.";
-          let html =
-            "<div class='quick-suggestions'><strong>🔍 Here's What To Do:</strong><ul>";
-          weakSuggestions.forEach((s) => (html += `<li>⚠️ ${s}</li>`));
+          const yesCount = answers.filter((a) => a === "yes").length;
+          const problemPercent = Math.round(((TOTAL - yesCount) / TOTAL) * 100);
+          let scoreColor =
+            problemPercent >= 70
+              ? "#dc2626"
+              : problemPercent >= 40
+                ? "#d97706"
+                : "#0066CC";
+          let scoreLabel =
+            problemPercent >= 70
+              ? "Critical"
+              : problemPercent >= 40
+                ? "Needs Work"
+                : "Almost There";
+          let scoreMsg =
+            problemPercent >= 70
+              ? "Your funnel is losing most of the people who visit. Several things need fixing before you'll see real bookings."
+              : problemPercent >= 40
+                ? "You're close but there are clear gaps holding you back. A few fixes could make a big difference right now."
+                : "Mostly solid but there are a couple of leaks worth fixing to get the most out of your traffic.";
+
+          let html = `<div style="background:#fff;border:2px solid ${scoreColor};border-radius:12px;padding:20px;margin-bottom:18px;text-align:center;">
+  <p style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:${scoreColor};margin:0 0 6px;">Your Funnel Health Score</p>
+  <div style="font-size:54px;font-weight:900;color:${scoreColor};line-height:1;margin-bottom:4px;">${problemPercent}%</div>
+  <div style="display:inline-block;background:${scoreColor};color:#fff;font-size:11px;font-weight:700;padding:3px 12px;border-radius:20px;margin-bottom:12px;">${scoreLabel}</div>
+  <div style="background:#f3f4f6;border-radius:99px;height:8px;overflow:hidden;margin-bottom:12px;">
+    <div style="height:100%;width:${problemPercent}%;background:${scoreColor};border-radius:99px;"></div>
+  </div>
+  <p style="font-size:13px;color:#4b5563;margin:0;line-height:1.5;">${scoreMsg}</p>
+</div>`;
+
+          html +=
+            "<div class='quick-suggestions'><strong>Here's What To Fix:</strong><ul>";
+          if (weakSuggestions.length === 0) {
+            html +=
+              "<li>🎉 Your funnel looks solid — but enter your details and we'll take a personal look for hidden gaps.</li>";
+          } else {
+            weakSuggestions.forEach((s) => (html += `<li>⚠️ ${s}</li>`));
+          }
           html += `</ul><p style="margin:10px 0 0;font-size:13px;color:#555;">
-            Fill in your details below and we'll send you a <strong>simple step-by-step plan</strong> to fix each of these for free
-          </p></div>`;
+  Fill in your details below to receive a <strong>simple step-by-step plan</strong> to fix each of these — for free.
+</p></div>`;
           document.getElementById("result").innerHTML = html;
         }
       }
@@ -892,14 +1154,75 @@
           ? `
           <div style="text-align:center;padding:10px 0;">
             <h3>Got it, ${name}</h3>
-            <p>We're going to take a personal look at your funnel and find the hidden gaps.</p>
-            <p>Check your inbox, I'll be in touch soon with a real, honest review and exactly where you could be converting more.</p>
+            <p>Your audit answers have been received.</p>
+            <p>Here's exactly what happens next so you know what to expect.</p>
           </div>`
           : `
           <div style="text-align:center;padding:10px 0;">
-            <h3>You're all set, ${name}!</h3>
-            <p>We're putting together your personal plan right now.</p>
-            <p>Check your inbox soon, it will show you exactly what to fix and how to get more people to say yes.</p>
+            <h3>You're all set, ${name}</h3>
+            <p>Your audit answers have been received.</p>
+            <p>Here's exactly what happens next so you know what to expect.</p>
+
+
+        
+        <div class="next-steps">
+          <h3>What Happens Next</h3>
+
+          <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-text">
+              <strong>Check your inbox :</strong> you'll get a confirmation
+              email shortly. If you don't see it, check your spam folder and
+              mark it as safe.
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-text">
+              <strong>I personally reviews your answers :</strong> this usually
+              takes 1 to 2 business days. It's not automated. A real person
+              looks at your page.
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-text">
+              <strong>You get your fix plan :</strong> a clear, simple breakdown
+              of what's not working and the exact steps to fix it. No fluff.
+            </div>
+          </div>
+        </div>
+
+    
+        <div class="ty-tip">
+          <i class="fas fa-lightbulb"></i>
+          <strong>Tip:</strong> While you wait, think about the last 5 people
+          who visited your page. Did any of them reach out? If not, that gap is
+          exactly what this audit will help you close.
+        </div>
+
+
+        <div class="social-nudge">
+          <p>
+            Want more free tips on getting clients from your page? Follow along:
+          </p>
+          <div class="social-links">
+            <a
+              href="https://www.facebook.com/share/1RUDqwE2Ev/?mibextid=wwXIfr"
+              class="fb"
+              target="_blank"
+            >
+              <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+          </div>
+        </div>
+
+
+        <a href="index.html" class="ty-back">
+          <i class="fas fa-arrow-left"></i> Back to home
+        </a>
           </div>`;
       }
 
