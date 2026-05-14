@@ -456,7 +456,7 @@
     <section class="welcome-area">
       <div
         class="single-welcome-slide bg-img bg-overlay jarallax"
-        style="background-image: url(images/img1.jpg)"
+        style="background-image: url(images/new.png)"
       >
         <div class="container h-100">
           <div class="row h-100 align-items-center">
@@ -563,7 +563,11 @@
                 <div class="contact_form">
                   <div class="contact_input_area">
                     <div id="success_fail_info"></div>
-                    <div class="row" id="submit-container">
+                    <div
+                      class="row"
+                      id="submit-container"
+                      style="justify-content: center; align-items: center"
+                    >
                       <div class="col-12 col-lg-6">
                         <div class="form-group">
                           <input
@@ -603,7 +607,7 @@
                           id="submitBtn"
                           onclick="submitQuiz()"
                         >
-                          Get My Personalized Audit
+                          Show Me What's Costing Me Clients
                           <i class="fas fa-arrow-right"></i>
                         </button>
                       </div>
@@ -628,12 +632,12 @@
 
       const questions = [
         {
-          q: "Does your page have ONE clear headline that tells your ideal client exactly what they'll get?",
+          q: "If someone landed on your page right now, would they know in 3 seconds what you do and who it's for?",
           feedback: {
             yes: "✅ Great, A strong headline is the #1 thing that makes someone stay and keep reading. First 3 seconds really matter.",
-            no: "⚠️ If your headline isn't crystal clear, people leave before reading anything else. Try this formula: 'I help [who] get [result] without [pain].'",
+            no: "⚠️ People decide in 3 seconds. If your headline doesn't grab them, they're already gone and they won't come back. Try this formula: 'I help [who] get [result] without [pain].'",
             "not sure":
-              "🤔 Read your headline out loud. Would a stranger instantly know who it's for and what they get? If there's any confusion, rewrite it.",
+              "🤔 Read it out loud. If you or any stranger have to think about it, rewrite it. There's a confusion.",
           },
           suggestion:
             "Write a clearer headline that tells people exactly what they get.",
@@ -642,42 +646,42 @@
           q: "Does your page speak directly to a pain your ideal client is already feeling right now?",
           feedback: {
             yes: "✅ Yes, When people feel understood, they trust you faster and are way more likely to take action.",
-            no: "⚠️ People don't buy solutions, they run away from pain. Talk about the frustration they feel before they found you. Make them feel seen.",
+            no: "⚠️ If your page doesn't make them feel understood, they'll find someone who does. Talk about the frustration they feel before they found you. Make them feel understood.",
             "not sure":
-              "🤔 Look at your page, does it describe their daily struggle in words they would actually use? If it sounds to vague, get more real.",
+              "🤔 Does it describe their daily struggle in words they would actually use? If not, get more real.",
           },
           suggestion:
             "Add words that describe the exact pain your client feels right now.",
         },
         {
-          q: "Do you clearly explain the RESULT or transformation someone gets from working with you?",
+          q: "Do you clearly explain what their LIFE will look like after working with you, not just what you do?",
           feedback: {
             yes: "✅ Perfect. People are buying the outcome, not the process. Showing the result clearly is what gets them excited.",
-            no: "⚠️ Listing what you 'do' is not the same as showing what someone 'gets.' Replace features with outcomes. Instead of '6 sessions,' say 'a clear plan to double your income in 90 days.'",
+            no: "⚠️ Nobody buys sessions. They buy the life on the other side. Show them that. Instead of '6 sessions,' say 'a clear plan to double your income in 90 days.'",
             "not sure":
-              "🤔 Ask yourself: after reading your page, would someone know exactly how their life looks different after working with you? If not, paint that picture.",
+              "🤔 After reading your page, would someone know exactly how their life looks different after working with you? If not, show them.",
           },
           suggestion:
             "Show the clear transformation or result clients get from working with you.",
         },
         {
-          q: "Does your page explain WHY you are the right person to help them, your story or experience?",
+          q: "Does your page give someone a real reason to trust you over anyone else? Like your experience?",
           feedback: {
             yes: "✅ Niceee. People hire people, not services. Sharing your story or credentials builds real trust.",
-            no: "⚠️ Without a 'why you' section, visitors have no reason to choose you over anyone else. Share your story, your journey, or your results briefly.",
+            no: "⚠️ Right now a stranger lands on your page and thinks, why should I trust this person? If your page doesn't answer that, they leave. Share your journey, story and results.",
             "not sure":
-              "🤔 You don't need a long bio. Even 3 to 4 sentences about why you do this work and who you've helped can make a big difference.",
+              "🤔 You don't need a long story. Just enough for someone to think, this person gets it.",
           },
           suggestion:
             "Add a short section about who you are and why you're the right person to help.",
         },
         {
-          q: "Do you have real testimonials that show SPECIFIC results, not just 'she's amazing'?",
+          q: "Do your testimonials show real results, not just 'she's amazing'?",
           feedback: {
             yes: "✅ Strong proof, Specific results in testimonials do the selling for you.",
-            no: "⚠️ Vague testimonials like 'great coach' don't move people. You need proof like 'I went from 0 to 5 clients in 30 days.' Reach out to past clients for specific outcomes.",
+            no: "⚠️ 'She is amazing' doesn't pay your bills. Real results do. People need to see proof that someone like them got somewhere. You need proof like 'I went from 0 to 5 clients in 30 days.' Reach out to past clients for specific outcomes.",
             "not sure":
-              "🤔 Look at your testimonials. Do they mention a real number, a real result, or a real before and after? If they're mostly about how nice you are, ask clients for more detail.",
+              "🤔 Do your testimonials mention a real number, a real result, or a real before and after? If they're mostly about how nice you are, go back and ask.",
           },
           suggestion:
             "Collect testimonials that show specific results, numbers, or before and after stories.",
@@ -686,42 +690,42 @@
           q: "Does your page handle the most common objection. Like price, time, or 'is this for me?'",
           feedback: {
             yes: "✅ Smart, addressing objections on the page removes the biggest reason people talk themselves out of buying.",
-            no: "⚠️ People always have doubts. If you don't address them, they leave without asking. Add an FAQ or a short section that tackles the top 2–3 reasons someone might say no.",
+            no: "⚠️ The sale was almost there. Then a quiet doubt killed it. And you never even knew. Add an FAQ or a short section that tackles the top 2–3 reasons someone might say no.",
             "not sure":
-              "🤔 Think about the most common questions or pushbacks you get on sales calls. Are any of those answered on your page? If not, add them.",
+              "🤔 Think about the most common questions you get on sales calls. Are any of those answered on your page? If not, add them.",
           },
           suggestion:
             "Add an FAQ or objection section that answers the top reasons people hesitate.",
         },
         {
-          q: "Is it totally clear WHAT someone gets when they work with you. Sessions, deliverables, timeline?",
+          q: "If someone wanted to say yes right now, do they know exactly what they're signing up for?",
           feedback: {
             yes: "✅ Good, clarity removes fear. When people know exactly what they're getting, it's easier to say yes.",
-            no: "⚠️ Vague offers confuse people and confusion kills sales. Break down exactly what's included, how many sessions, what happens, how long it takes.",
+            no: "⚠️ Confusion is silent. People don't tell you they're confused, they just don't book. Break down exactly what's included, what happens, how long it takes.",
             "not sure":
-              "🤔 Could someone read your offer and know exactly what they're buying? If there are any gaps or assumptions, fill them in.",
+              "🤔 Could someone read your offer and know exactly what they're buying? If there's any guessing involved, fill it in.",
           },
           suggestion:
             "Make your offer clearer, list exactly what's included and what happens step by step.",
         },
         {
-          q: "Does your call-to-action create urgency or give a strong reason to act NOW?",
+          q: "Does your call-to-action give people a strong reason to act NOW, not tomorrow, not next week?",
           feedback: {
             yes: "✅ Great. Without a reason to act now, people bookmark the page and never come back.",
-            no: "⚠️ 'Book a call' on its own is weak. Add a reason to act today like limited spots, a bonus for acting fast, or simply remind them of the cost of waiting.",
+            no: "⚠️ 'Book a call' gives them zero reason to do it today. And today is the only day that matters. Add a reason to act today like limited spots, a bonus for acting fast, or simply remind them of the cost of waiting.",
             "not sure":
-              "🤔 Read your button and the text around it. Does it give someone a reason to click today rather than tomorrow? If not, add one.",
+              "🤔 Read your button and the text around it. If there's no reason to act today, most people won't. Give them one.",
           },
           suggestion:
             "Add urgency to your call-to-action. Like limited spots, a deadline, or a cost of waiting message.",
         },
         {
-          q: "Do you follow up with people who showed interest but didn't book or buy?",
+          q: "When someone shows interest but doesn't book, do they ever hear from you again?",
           feedback: {
             yes: "✅ Excellent, most sales happen in the follow-up. You're already ahead of most coaches.",
-            no: "⚠️ 80% of sales happen after the first contact. If you're not following up, you're leaving money on the table every single week.",
+            no: "⚠️ They were interested. They just needed one more nudge. And you never sent it. If you're not following up, you're leaving money on the table.",
             "not sure":
-              "🤔 If someone filled out your form or visited your page but didn't book, do they hear from you again? If not, set up a simple 3-email follow-up sequence.",
+              "🤔 If they went quiet, that doesn't mean they're gone. One follow-up can change everything.",
           },
           suggestion:
             "Set up a follow-up system for people who showed interest but didn't take action.",
@@ -730,9 +734,9 @@
           q: "Is there only ONE thing you're asking visitors to do on the page, no distractions?",
           feedback: {
             yes: "✅ Perfect. One focused ask = more conversions. You're doing this right.",
-            no: "⚠️ Multiple links, menu bars, and options pull people away from the one action that makes you money. Strip the page down to one clear path.",
+            no: "⚠️ Every extra link is a door out. And most people will take it. Strip the page down to one clear path.",
             "not sure":
-              "🤔 Look at your page. Are there links to your blog, social media, or other pages? Each one is a door that takes people away from booking. Remove the distractions.",
+              "🤔 Count every link on your page. Each one is a way out. Remove what doesn't lead to booking.",
           },
           suggestion:
             "Remove distractions and make sure the whole page leads to just one action.",
@@ -741,7 +745,7 @@
           q: "Does your page make someone feel that NOT working with you has a real cost?",
           feedback: {
             yes: "✅ That's powerful. When people understand what staying stuck costs them, taking action becomes easy.",
-            no: "⚠️ Your page might describe what they gain but are you showing what they LOSE by doing nothing? Time, money, missed opportunities? Make that real.",
+            no: "⚠️ Staying stuck has a cost. If your page doesn't make that real, they'll convince themselves they're fine. Time, money, missed opportunities? Make that real.",
             "not sure":
               "🤔 Think about what your ideal client's life looks like 6 months from now if they do nothing. Is that picture on your page? It should be.",
           },
@@ -817,7 +821,7 @@
           paths: `<rect x="13" y="13" width="22" height="22" rx="5" stroke="white" stroke-width="2.5" fill="none"/><line x1="18" y1="20" x2="30" y2="20" stroke="white" stroke-width="2" stroke-linecap="round" opacity=".7"/><line x1="18" y1="25" x2="27" y2="25" stroke="white" stroke-width="2" stroke-linecap="round" opacity=".5"/><circle cx="34" cy="34" r="7" fill="#059669"/><path d="M30 34l3 3 5-5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`,
         },
         {
-          label: "Done! 🎉",
+          label: "Done🎉",
           color: "green",
           paths: `<path d="M14 25l7 7 13-13" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>`,
         },
@@ -988,11 +992,11 @@
 
         if (allYes) {
           document.getElementById("question").innerText =
-            "🔥 Your page looks strong on paper but is it actually getting more people to buy";
+            "Your page looks good. So why aren't more people booking?";
           document.getElementById("result").innerHTML = `
             <div class='quick-suggestions'>
               <strong>💡 Here's the truth:</strong>
-              <p style="margin:10px 0 6px;">Most coaches who answer YES to everything are still leaving money on the table — they just can't see where.</p>
+              <p style="margin:10px 0 6px;">Most coaches who answer YES to everything are still losing clients every week. They just can't see where it's happening.</p>
               <p style="margin:0 0 6px;">The real question isn't whether your page <em>looks</em> right. It's whether it's actually turning visitors into paying clients.</p>
               <p style="margin:0;"><strong>Enter your details below and we'll do a free personal review of your actual page</strong> and show you exactly where you could be getting more bookings.</p>
             </div>`;
@@ -1000,7 +1004,7 @@
             'Get My Free Personal Review <i class="fas fa-arrow-right"></i>';
         } else {
           document.getElementById("question").innerText =
-            "Here's what we found, Enter your details to get your full personalized fix.";
+            "Here's where clients are slipping away. Enter your details to get how to fix each one";
           const yesCount = answers.filter((a) => a === "yes").length;
           const problemPercent = Math.round(((TOTAL - yesCount) / TOTAL) * 100);
           let scoreColor =
@@ -1017,10 +1021,10 @@
                 : "Almost There";
           let scoreMsg =
             problemPercent >= 70
-              ? "Your page is losing most of the people who visit. Several things need fixing before you'll see real bookings."
+              ? "Visitors are landing and leaving. Most of them will never come back. Let's close them."
               : problemPercent >= 40
-                ? "You're close but there are clear gaps holding you back. A few fixes could make a big difference right now."
-                : "Mostly solid but there are a couple of leaks worth fixing to get the most out of your traffic.";
+                ? "You're closer than you think but right now those gaps are costing you clients every single time"
+                : "Almost there. But even small leaks mean real clients walking away. Let's close them.";
 
           let html = `<div style="background:#fff;border:2px solid ${scoreColor};border-radius:12px;padding:20px;margin-bottom:18px;text-align:center;">
   <p style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:${scoreColor};margin:0 0 6px;">Your Page Health Score</p>
@@ -1033,7 +1037,7 @@
 </div>`;
 
           html +=
-            "<div class='quick-suggestions'><strong>Here's What To Fix:</strong><ul>";
+            "<div class='quick-suggestions'><strong>Here's What To Do:</strong><ul>";
           if (weakSuggestions.length === 0) {
             html +=
               "<li>🎉 Your page looks solid but enter your details and we'll take a personal look for hidden gaps.</li>";
@@ -1041,7 +1045,7 @@
             weakSuggestions.forEach((s) => (html += `<li>⚠️ ${s}</li>`));
           }
           html += `</ul><p style="margin:10px 0 0;font-size:13px;color:#555;">
-  Fill in your details below to receive a <strong>simple step-by-step plan</strong> to fix each of these, for free.
+  Every one of these is a client you're not getting right now. <strong>Enter your details</strong> and I'll show you exactly how to fix them, for free.
 </p></div>`;
           document.getElementById("result").innerHTML = html;
         }
@@ -1153,15 +1157,14 @@
         document.getElementById("result").innerHTML = allYes
           ? `
           <div style="text-align:center;padding:10px 0;">
-            <h3>Got it, ${name}</h3>
-            <p>Your audit answers have been received.</p>
-            <p>Here's exactly what happens next so you know what to expect.</p>
+            <h3>Nice work, ${name}</h3>
+            <p>You made it through. Here's what happens from here, so you know what to expect.</p>
+          
           </div>`
           : `
           <div style="text-align:center;padding:10px 0;">
-            <h3>You're all set, ${name}</h3>
-            <p>Your audit answers have been received.</p>
-            <p>Here's exactly what happens next so you know what to expect.</p>
+            <h3>Good news, ${name}</h3>
+            <p>You just found exactly what's been holding your page back. Here's what happens next.</p>
 
 
         
@@ -1171,26 +1174,22 @@
           <div class="step">
             <div class="step-num">1</div>
             <div class="step-text">
-              <strong>Check your inbox :</strong> you'll get a confirmation
-              email shortly. If you don't see it, check your spam folder and
-              mark it as safe.
+              <strong>Check your inbox :</strong> A confirmation email is on its way. If you don't see it, check spam folder and mark it as safe.
             </div>
           </div>
 
           <div class="step">
             <div class="step-num">2</div>
             <div class="step-text">
-              <strong>I personally reviews your answers :</strong> this usually
-              takes 1 to 2 business days. It's not automated. A real person
-              looks at your page.
+              <strong>I personally read your answers.</strong> this usually
+              takes 1 to 2 days. It's not automated. Just me looking at your page.
             </div>
           </div>
 
           <div class="step">
             <div class="step-num">3</div>
             <div class="step-text">
-              <strong>You get your fix plan :</strong> a clear, simple breakdown
-              of what's not working and the exact steps to fix it. No fluff.
+              <strong>You get a simple fix plan.</strong> Just the exact changes that will turn more visitors into clients.
             </div>
           </div>
         </div>
@@ -1198,15 +1197,13 @@
     
         <div class="ty-tip">
           <i class="fas fa-lightbulb"></i>
-          <strong>Tip:</strong> While you wait, think about the last 5 people
-          who visited your page. Did any of them reach out? If not, that gap is
-          exactly what this audit will help you close.
+          <strong>Tip:</strong> While you wait, think about the last person who visited your page and never reached out. That's exactly what this audit is going to stop.
         </div>
 
 
         <div class="social-nudge">
           <p>
-            Want more free tips on getting clients from your page? Follow along:
+            While you wait, follow along for tips that might fix things before I even get back to you:
           </p>
           <div class="social-links">
             <a
